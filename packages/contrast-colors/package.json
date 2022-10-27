@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@eleventhlabs/leonardo-contrast-colors",
   "version": "1.0.0-alpha.16",
   "description": "Generate colors based on a desired contrast ratio",
