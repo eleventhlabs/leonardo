@@ -1,4 +1,4 @@
-# `@adobe/leonardo-contrast-colors`
+# `@eleventhlabs/leonardo-contrast-colors`
 
 [![npm version](https://badge.fury.io/js/%40adobe%2Fleonardo-contrast-colors.svg)](https://www.npmjs.com/package/@adobe/leonardo-contrast-colors)
 [![Package size](https://badgen.net/packagephobia/publish/@adobe/leonardo-contrast-colors)](https://packagephobia.com/result?p=%40adobe%2Fleonardo-contrast-colors)
@@ -15,7 +15,7 @@ This package contains all the functions for generating colors by target contrast
 ### Install the package:
 
 ```
-npm i @adobe/leonardo-contrast-colors
+npm i @eleventhlabs/leonardo-contrast-colors
 ```
 
 ### Import the package:
@@ -23,13 +23,13 @@ npm i @adobe/leonardo-contrast-colors
 #### CJS (Node 12.x)
 
 ```js
-const { Theme, Color, BackgroundColor } = require('@adobe/leonardo-contrast-colors');
+const { Theme, Color, BackgroundColor } = require('@eleventhlabs/leonardo-contrast-colors');
 ```
 
 #### ESM (Node 13.x)
 
 ```js
-import { Theme, Color, BackgroundColor } from '@adobe/leonardo-contrast-colors';
+import { Theme, Color, BackgroundColor } from '@eleventhlabs/leonardo-contrast-colors';
 ```
 
 ### Create and pass colors and a background color to a new Theme (see additional options below):
@@ -319,7 +319,7 @@ for (let i = 0; i < myTheme.length; i++) {
 ### React
 Create a new Theme component `Theme.js` with your parameters:
 ```js
-import * as Leo from '@adobe/leonardo-contrast-colors';
+import * as Leo from '@eleventhlabs/leonardo-contrast-colors';
 
 const Theme = () => {  
   let gray = new Leo.BackgroundColor({
